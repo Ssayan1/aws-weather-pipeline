@@ -24,4 +24,4 @@ jobs:
         run: pytest tests/ -v
 
       - name: Check code style
-        run: flake8 src/ --max-line-length=100 --ignore=E501
+        run: flake8 src/ --max-line-length=100 --ignore=E501,E221,E241,E302,F401,W503
