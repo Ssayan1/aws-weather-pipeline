@@ -6,6 +6,7 @@
 from the OpenWeather API, processes it with Python & Pandas, stores it in AWS S3,
 catalogs it with AWS Glue, queries it via AWS Athena, and visualizes it in a live Streamlit dashboard.**
 
+[![CI](https://github.com/Ssayan1/aws-weather-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/Ssayan1/aws-weather-pipeline/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-FF9900?style=for-the-badge&logo=amazons3&logoColor=white)](https://aws.amazon.com/s3)
 [![AWS Glue](https://img.shields.io/badge/AWS_Glue-ETL-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/glue)
